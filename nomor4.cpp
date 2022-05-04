@@ -7,7 +7,7 @@ int main ()
     cin >> n;
     cout << "\nEnter the elements of the array : \n";
     for (i = 0; i < n; i++){
-    cout << "- Element number " << i + 1 << ": ";
+    cout << "input element number " << i + 1 << " = ";
     cin >> arr[i];
 }
     cout << endl;
